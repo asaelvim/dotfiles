@@ -1,0 +1,24 @@
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+mouse = false
+scrolloff = 10
+true-color = true
+# auto-pairs = false
+end-of-line-diagnostics = "hint"
+
+[editor.whitespace.render]
+space = "all"
+
+[editor.indent-guides]
+render = true
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 0
+wrap-indicator = ""
+
+[editor.inline-diagnostics]
+cursor-line = "warning"

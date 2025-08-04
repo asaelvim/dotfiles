@@ -1,0 +1,63 @@
+{
+   "niri/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+         "web": "󰈹",
+         "chat": "",
+         "dev": "",
+         "music": "",
+         "game": "",
+         "media": ""
+      }
+   },
+
+   "niri/window": {
+      "format": "{title}"
+   },
+
+   "clock": {
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format": "{:%H:%M %d-%m-%Y}",  
+      "interval": 1
+   },   
+
+   "battery": {
+      "full-at": 96,
+      "states": {
+         "good": 78,
+         "ok": 77,
+         "warning": 20,
+         "critical": 10
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": "󱐋 {capacity}%",
+      "format-plugged": " {capacity}%",
+      "format-time": "{H}h {M}m",
+      "format-icons": [ "󰁺","󰁻", "󰁼", "󰁽", "󰁾","󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+      "tooltip": false
+   },
+
+   "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-muted": "",
+      "format-icons": {
+         "headphones": "󰋋",
+         "headset": "󰋋",
+         "default": ["󰕿","󰖀","󰕾"]
+      },
+      "tooltip": false
+   },
+
+   "tray": {
+      "icon-size": 15,
+      "spacing": 8
+   },
+
+   "custom/separator": {
+      "return-type": "text",
+      "interval": "once",
+      "format": "·",
+      "tooltip": false
+   }
+}
+

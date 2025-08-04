@@ -1,0 +1,6 @@
+2025/08/02-20:35:48.447 85b Reusing MANIFEST /home/asaelvim/.config/elecwhat/Local Storage/leveldb/MANIFEST-000001
+2025/08/02-20:35:48.450 85b Recovering log #93
+2025/08/02-20:35:48.450 85b Reusing old log /home/asaelvim/.config/elecwhat/Local Storage/leveldb/000093.log 
+2025/08/03-00:28:01.367 85b Level-0 table #97: started
+2025/08/03-00:28:01.369 85b Level-0 table #97: 14687 bytes OK
+2025/08/03-00:28:01.370 85b Delete type=0 #93
