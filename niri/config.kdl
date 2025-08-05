@@ -104,7 +104,7 @@ layout {
 
 
 spawn-at-startup "waybar"
-spawn-at-startup "shaderbg" "--layer" "background" "*" "/home/asaelvim/.config/wallpapers/balatro.frag"
+spawn-at-startup "env" "__GLX_VENDOR_LIBRARY_NAME=mesa" "__EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json" "MESA_LOADER_DRIVER_OVERRIDE=zink" "GALLIUM_DRIVER=zink" "LIBGL_KOPPER_DRI2=1" "shaderbg" "--layer" "background" "*" "/home/asaelvim/.config/wallpapers/balatro.frag"
 // spawn-at-startup "swww-daemon"
 // spawn-at-startup "swww" "img" "/home/asaelvim/.config/wallpapers/berserkgruvbox.jpg"
 spawn-at-startup "swaync"
