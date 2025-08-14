@@ -176,7 +176,7 @@ binds {
     Mod+D { spawn "fuzzel"; }
     Mod+B { spawn "zen-browser"; }
     Mod+E { spawn "nemo"; }
-    Mod+Escape { spawn "wlogout"; }
+    // Mod+Escape { spawn "wlogout"; }
     Ctrl+Shift+Escape { spawn "missioncenter"; }
     
     // Super+Alt+L { spawn "swaylock"; }
