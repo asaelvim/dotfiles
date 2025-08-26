@@ -40,8 +40,15 @@ output "eDP-2" {
     position x=0 y=0
 }
 
+// output "HDMI-A-1" {
+//     mode "1920x1080@60.000"
+//     scale 1
+//     transform "normal"
+//     position x=1920 y=0
+// }
+
 output "HDMI-A-1" {
-    mode "1920x1080@60.000"
+    mode "1680x1050@59.954"
     scale 1
     transform "normal"
     position x=1920 y=0
@@ -102,9 +109,9 @@ layout {
     }
 }
 
-
 spawn-at-startup "waybar"
 spawn-at-startup "env" "__GLX_VENDOR_LIBRARY_NAME=mesa" "__EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json" "MESA_LOADER_DRIVER_OVERRIDE=zink" "GALLIUM_DRIVER=zink" "LIBGL_KOPPER_DRI2=1" "shaderbg" "--layer" "background" "*" "/home/asaelvim/.config/wallpapers/balatro.frag"
+// spawn-at-startup "sleep" "5" "&&" "/home/asaelvim/.local/bin/terminal-bg" "--script" "'term-shdw" "--color-head" "cc241d" "--color-tail" "665c64'" "--monitor" "0"
 // spawn-at-startup "swww-daemon"
 // spawn-at-startup "swww" "img" "/home/asaelvim/.config/wallpapers/berserkgruvbox.jpg"
 spawn-at-startup "swaync"
