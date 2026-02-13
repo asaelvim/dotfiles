@@ -1,4 +1,4 @@
-theme = "gruvbox"
+theme = "nord"
 
 [editor]
 line-number = "relative"
@@ -7,6 +7,11 @@ scrolloff = 10
 true-color = true
 auto-pairs = false
 end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "underline"
 
 [editor.whitespace.render]
 space = "all"
@@ -22,3 +27,19 @@ wrap-indicator = ""
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["file-name"]
+center = ["mode", "spinner"]
+right = ["diagnostics", "selections", "position", "file-type"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+[keys.normal]
+C-r = ":reload-all"
